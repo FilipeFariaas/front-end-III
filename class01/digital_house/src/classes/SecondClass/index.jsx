@@ -1,3 +1,5 @@
+import './style.scss'
+
 export function SecondClass() {
     return (
         <main>
