@@ -2,7 +2,7 @@ import './style.scss'
 
 export function SecondClass() {
     return (
-        <main>
+        <main className={'second-class'}>
             <h1>Segunda Aula</h1>
             <h2>Site - <a href={"https://www.starplus.com/en-br"} target={"_blank"} >Star+ (não logado)</a> </h2>
             <br/>
