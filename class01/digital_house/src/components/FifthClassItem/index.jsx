@@ -3,7 +3,7 @@ export function FifthClassItem(props) {
     const {data} = {...props}
 
     return (
-        <li key={data.id}>
+        <li>
             <img src={data.imgUrl}/>
             <h2>{data.name}</h2>
             <p>{data.description}</p>

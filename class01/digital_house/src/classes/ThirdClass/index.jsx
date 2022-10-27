@@ -12,7 +12,7 @@ export function ThirdClass() {
             <h1>Third Class!</h1>
             <ul>
                 {components.map((component) =>
-                    <FifthClassItem data={component}/>
+                    <FifthClassItem key={component.id} data={component}/>
                 )}
             </ul>
         </section>
