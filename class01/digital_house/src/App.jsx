@@ -4,15 +4,17 @@ import {ThirdClass} from "./classes/ThirdClass";
 import {useEffect, useState} from "react";
 import {FourthClass} from "./classes/FourthClass";
 import {FifthClassItem} from "./components/FifthClassItem";
+import {SeventhClass} from "./classes/SeventhClass";
 
 function App() {
     return (
         <>
             {/*<Login />*/}
             {/*<SecondClass />*/}
-            <ThirdClass />
+            {/*<ThirdClass />*/}
             {/*<FourthClass />*/}
             {/*<FifthClassItem />*/}
+            <SeventhClass />
         </>
     )
 }
