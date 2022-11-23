@@ -15,6 +15,21 @@ export function MainLayout() {
 
                     <li>
 
+                        <Link to="terceira-aula">Terceira Aula</Link>
+
+                    </li>
+                    <li>
+
+                        <Link to="quinta-aula">Quinta Aula</Link>
+
+                    </li>
+                    <li>
+
+                        <Link to="setima-aula">Sétima Aula</Link>
+
+                    </li>
+                    <li>
+
                         <Link to="decima-quarta-aula">Decima Quarta Aula</Link>
 
                     </li>
@@ -31,7 +46,7 @@ export function MainLayout() {
 
             <main className='main-layout-component-main'>
 
-                <p>O conteúdo será carregado aqui dentro:</p>
+            <Link to="">Voltar</Link>
 
                 <Outlet />
 

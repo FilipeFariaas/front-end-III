@@ -23,6 +23,18 @@ function App() {
       element: <MainLayout />,
       children: [
         {
+          path: 'terceira-aula',
+          element: <TerceiraAula />
+        },
+        {
+          path: 'quinta-aula',
+          element: <QuintaAula />
+        },
+        {
+          path: 'setima-aula',
+          element: <SetimaAula />
+        },
+        {
           path: 'decima-quarta-aula',
           element: <DecimaQuartaAula />
         },
