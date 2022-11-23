@@ -11,9 +11,9 @@ export function DecimaQuintaAula() {
     const [locations, setLocations] = useState([])
     const [cep, setCep] = useState('')
 
-    function searchCep(cepRecieved) {
-
-        setCep(cepRecieved)
+    function searchCep(e, cepRecieved) {
+        e.preventDefault()
+        // setCep(cepRecieved)
 
         if(cepRecieved.length === 8) {
 
@@ -46,6 +46,9 @@ export function DecimaQuintaAula() {
     function deleteLocation(currentLocation) {
 
         console.log(currentLocation)
+        let newArr = locations.filter((value) => value.cep !== currentLocation.cep)
+        console.log(newArr)
+        setLocations(newArr)
 
     }
 
@@ -62,11 +65,11 @@ export function DecimaQuintaAula() {
                     <input
                         type="number"
                         value={cep}
-                        onChange={event => searchCep(event.target.value)}
+                        onChange={event => setCep(event.target.value)}
                     />
                 </div>
 
-                <button>Cadastrar</button>
+                <button onClick={(e) => searchCep(e, cep)}>Cadastrar</button>
 
             </form>
 
