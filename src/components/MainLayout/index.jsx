@@ -46,7 +46,7 @@ export function MainLayout() {
 
             <main className='main-layout-component-main'>
 
-            <Link to="">Voltar</Link>
+            <Link to="">Fechar</Link>
 
                 <Outlet />
 
