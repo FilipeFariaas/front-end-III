@@ -8,10 +8,52 @@
 
     }
 
-    .main-layout-component-main {
+    main {
 
-        background-color: #505050;
-        padding: 42px;
+        display: flex;
+        flex-direction: row;
+
+        width: 100vw;
+
+        padding: 40px;
+
+        aside {
+
+            width: 300px;
+
+            ul {
+
+                list-style: none;
+
+                margin-right: 40px;
+
+                li {
+                    margin: 10px 0;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+
+                }
+
+                .selected {
+                    color: lightcoral;
+                }
+
+
+            }
+
+
+        }
+
+        .main-layout-component-main {
+
+            width: 100%;
+
+            background-color: #505050;
+            padding: 40px;
+
+        }
 
     }
 

@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import {Link, useParams} from 'react-router-dom'
 
 import { DecimaQuintaAulaItem } from '../../components/DecimaQuintaAulaItem'
 
@@ -38,10 +38,7 @@ export function DecimaQuintaAula() {
             )
 
         }
-
     }
-
-
 
     function deleteLocation(currentLocation) {
 
@@ -92,5 +89,4 @@ export function DecimaQuintaAula() {
         </div>
 
     )
-
 }
